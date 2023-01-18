@@ -1,0 +1,12 @@
+data = [
+  [23, 11, 5, 14],
+  [8, 32, 20, 5]
+]
+total=23+11+5+14+8+32+20+5
+colors=['brown','blue','green','black']
+input_color = input()
+x=colors.index(input_color)
+a=int(data[0][x])
+b=int(data[1][x])
+cal=int((a+b)/total*100)
+print(cal)
