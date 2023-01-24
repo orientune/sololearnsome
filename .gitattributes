@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@orientune 
-alexkaratarakis
-/
-gitattributes
-Public
-Fork your own copy of alexkaratarakis/gitattributes
-Code
-Issues
-8
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-gitattributes/Python.gitattributes
-@bh1428
-bh1428 Jupyter notebooks are always created with LF (on Windows)
-Latest commit e6c7493 on Dec 7, 2022
- History
- 5 contributors
-@Richienb@skarzi@scottclowe@bh1428@Cielquan
-29 lines (25 sloc)  633 Bytes
-
 # Basic .gitattributes for a python repo.
 
 # Source files
@@ -59,18 +27,3 @@ Latest commit e6c7493 on Dec 7, 2022
 # with the python modules ``pickle``, ``dbm.*``,
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-gitattributes/Python.gitattributes at master · alexkaratarakis/gitattributes
