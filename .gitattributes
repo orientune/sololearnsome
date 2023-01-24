@@ -1,1 +1,76 @@
-static/* linguist-vendored
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@orientune 
+alexkaratarakis
+/
+gitattributes
+Public
+Fork your own copy of alexkaratarakis/gitattributes
+Code
+Issues
+8
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+gitattributes/Python.gitattributes
+@bh1428
+bh1428 Jupyter notebooks are always created with LF (on Windows)
+Latest commit e6c7493 on Dec 7, 2022
+ History
+ 5 contributors
+@Richienb@skarzi@scottclowe@bh1428@Cielquan
+29 lines (25 sloc)  633 Bytes
+
+# Basic .gitattributes for a python repo.
+
+# Source files
+# ============
+*.pxd    text diff=python
+*.py     text diff=python
+*.py3    text diff=python
+*.pyw    text diff=python
+*.pyx    text diff=python
+*.pyz    text diff=python
+*.pyi    text diff=python
+
+# Binary files
+# ============
+*.db     binary
+*.p      binary
+*.pkl    binary
+*.pickle binary
+*.pyc    binary export-ignore
+*.pyo    binary export-ignore
+*.pyd    binary
+
+# Jupyter notebook
+*.ipynb  text eol=lf
+
+# Note: .db, .p, and .pkl files are associated
+# with the python modules ``pickle``, ``dbm.*``,
+# ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
+# (among others).
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+gitattributes/Python.gitattributes at master · alexkaratarakis/gitattributes
