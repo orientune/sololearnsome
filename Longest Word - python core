@@ -1,0 +1,5 @@
+txt = input()
+list=txt.split()
+longest=max(list,key=len)
+print(longest)
+    
